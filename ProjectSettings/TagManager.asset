@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PetManager
+  - Pet
+  - RideButton
+  - AttackButton
+  - BDragon
+  - Target
+  - SkillUi
+  - Canvas
+  - TargetButton
+  - DragonSpawnPoint
+  - MonsterManager
+  - BDragonHive
+  - FenceBR
+  - FenceFL
+  - BDragonDead
+  - DataBase
+  - SkillButton1
+  - SkillButton2
+  - SkillButton3
+  - SkillButton4
+  - damagePoint
+  - FireBall
+  - Slot
+  - ItemInfoWindow
+  - EquipSlot
+  - ShopNpc
+  - UiEffect
+  - Panels
+  - Infos
+  - Spark
+  - Forcewave
+  - Lightning
+  - Shining
+  - Portal
+  - Stage
+  - Field2
+  - Field1
+  - FrogHive
+  - FrogSpawnPoint
+  - Frog
+  - FrogFenceBR
+  - FrogFenceFL
+  - GraveStone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Player
+  - Pet
+  - FireBall
+  - NPC
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

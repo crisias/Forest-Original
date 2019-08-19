@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f60a85d5f140a41be48906052695a1, type: 3}
+  m_Name: MagiStatus
+  m_EditorClassIdentifier: 
+  magiPrefabs: {fileID: 8118866993540172302, guid: 8d5c5b5fcacb5f1499881e809598fd39,
+    type: 3}
+  animations:
+  - {fileID: 7400000, guid: ba9051795f1603d488a0ea998dbacc27, type: 3}
+  - {fileID: 7400000, guid: 83a1a7554c6f87d4ca1b10a0b635da63, type: 3}
+  - {fileID: 7400000, guid: 0672d0af8c3cc8245af858351d3b6c33, type: 3}
+  - {fileID: 7400000, guid: 3a01564ae5eb666408a3de30ecaa958c, type: 3}
+  status:
+  - level: 1
+    hp: 50
+    mp: 50
+    str: 5
+    def: 0
+    dex: 0
+    cripro: 10
+    cridem: 10
+    exp: 50
+  - level: 2
+    hp: 60
+    mp: 60
+    str: 5.5
+    def: 1
+    dex: 1
+    cripro: 10.1
+    cridem: 10.5
+    exp: 100
+  - level: 3
+    hp: 70
+    mp: 70
+    str: 6
+    def: 2
+    dex: 2
+    cripro: 10.2
+    cridem: 11
+    exp: 150
+  - level: 4
+    hp: 80
+    mp: 80
+    str: 6.5
+    def: 3
+    dex: 3
+    cripro: 10.3
+    cridem: 11.5
+    exp: 200
+  - level: 5
+    hp: 90
+    mp: 90
+    str: 7
+    def: 4
+    dex: 4
+    cripro: 10.4
+    cridem: 12
+    exp: 250
+  - level: 6
+    hp: 100
+    mp: 100
+    str: 7.5
+    def: 5
+    dex: 5
+    cripro: 10.5
+    cridem: 12.5
+    exp: 300
+  - level: 7
+    hp: 110
+    mp: 110
+    str: 8
+    def: 6
+    dex: 6
+    cripro: 10.6
+    cridem: 13
+    exp: 350
+  - level: 8
+    hp: 120
+    mp: 120
+    str: 8.5
+    def: 7
+    dex: 7
+    cripro: 10.7
+    cridem: 13.5
+    exp: 400
+  - level: 9
+    hp: 130
+    mp: 130
+    str: 9
+    def: 8
+    dex: 8
+    cripro: 10.8
+    cridem: 14
+    exp: 450
+  - level: 10
+    hp: 140
+    mp: 140
+    str: 9.5
+    def: 9
+    dex: 9
+    cripro: 10.9
+    cridem: 14.5
+    exp: 500
+  - level: 11
+    hp: 150
+    mp: 150
+    str: 10
+    def: 10
+    dex: 10
+    cripro: 11
+    cridem: 15
+    exp: 550
+  - level: 12
+    hp: 160
+    mp: 160
+    str: 10.5
+    def: 11
+    dex: 11
+    cripro: 11.1
+    cridem: 15.5
+    exp: 600
+  - level: 13
+    hp: 170
+    mp: 170
+    str: 11
+    def: 12
+    dex: 12
+    cripro: 11.2
+    cridem: 16
+    exp: 650
+  - level: 14
+    hp: 180
+    mp: 180
+    str: 11.5
+    def: 13
+    dex: 13
+    cripro: 11.3
+    cridem: 16.5
+    exp: 700
+  - level: 15
+    hp: 190
+    mp: 190
+    str: 12
+    def: 14
+    dex: 14
+    cripro: 11.4
+    cridem: 17
+    exp: 750
+  - level: 16
+    hp: 200
+    mp: 200
+    str: 12.5
+    def: 15
+    dex: 15
+    cripro: 11.5
+    cridem: 17.5
+    exp: 800
+  - level: 17
+    hp: 210
+    mp: 210
+    str: 13
+    def: 16
+    dex: 16
+    cripro: 11.6
+    cridem: 18
+    exp: 850
+  - level: 18
+    hp: 220
+    mp: 220
+    str: 13.5
+    def: 17
+    dex: 17
+    cripro: 11.7
+    cridem: 18.5
+    exp: 900
+  - level: 19
+    hp: 230
+    mp: 230
+    str: 14
+    def: 18
+    dex: 18
+    cripro: 11.8
+    cridem: 19
+    exp: 950
+  - level: 20
+    hp: 240
+    mp: 240
+    str: 14.5
+    def: 19
+    dex: 19
+    cripro: 11.9
+    cridem: 19.5
+    exp: 1000
+  - level: 21
+    hp: 250
+    mp: 250
+    str: 15
+    def: 20
+    dex: 20
+    cripro: 12
+    cridem: 20
+    exp: 1050
+  - level: 22
+    hp: 260
+    mp: 260
+    str: 15.5
+    def: 21
+    dex: 21
+    cripro: 12.1
+    cridem: 20.5
+    exp: 1100
+  - level: 23
+    hp: 270
+    mp: 270
+    str: 16
+    def: 22
+    dex: 22
+    cripro: 12.2
+    cridem: 21
+    exp: 1150
+  - level: 24
+    hp: 280
+    mp: 280
+    str: 16.5
+    def: 23
+    dex: 23
+    cripro: 12.3
+    cridem: 21.5
+    exp: 1200
+  - level: 25
+    hp: 290
+    mp: 290
+    str: 17
+    def: 24
+    dex: 24
+    cripro: 12.4
+    cridem: 22
+    exp: 1250
+  - level: 26
+    hp: 300
+    mp: 300
+    str: 17.5
+    def: 25
+    dex: 25
+    cripro: 12.5
+    cridem: 22.5
+    exp: 1300
+  - level: 27
+    hp: 310
+    mp: 310
+    str: 18
+    def: 26
+    dex: 26
+    cripro: 12.6
+    cridem: 23
+    exp: 1350
+  - level: 28
+    hp: 320
+    mp: 320
+    str: 18.5
+    def: 27
+    dex: 27
+    cripro: 12.7
+    cridem: 23.5
+    exp: 1400
+  - level: 29
+    hp: 330
+    mp: 330
+    str: 19
+    def: 28
+    dex: 28
+    cripro: 12.8
+    cridem: 24
+    exp: 1450
+  - level: 30
+    hp: 340
+    mp: 340
+    str: 19.5
+    def: 29
+    dex: 29
+    cripro: 12.9
+    cridem: 24.5
+    exp: 1500
+  - level: 31
+    hp: 350
+    mp: 350
+    str: 20
+    def: 30
+    dex: 30
+    cripro: 13
+    cridem: 25
+    exp: 1550
+  - level: 32
+    hp: 360
+    mp: 360
+    str: 20.5
+    def: 31
+    dex: 31
+    cripro: 13.1
+    cridem: 25.5
+    exp: 1600
+  - level: 33
+    hp: 370
+    mp: 370
+    str: 21
+    def: 32
+    dex: 32
+    cripro: 13.2
+    cridem: 26
+    exp: 1650
+  - level: 34
+    hp: 380
+    mp: 380
+    str: 21.5
+    def: 33
+    dex: 33
+    cripro: 13.3
+    cridem: 26.5
+    exp: 1700
+  - level: 35
+    hp: 390
+    mp: 390
+    str: 22
+    def: 34
+    dex: 34
+    cripro: 13.4
+    cridem: 27
+    exp: 1750
+  - level: 36
+    hp: 400
+    mp: 400
+    str: 22.5
+    def: 35
+    dex: 35
+    cripro: 13.5
+    cridem: 27.5
+    exp: 1800
+  - level: 37
+    hp: 410
+    mp: 410
+    str: 23
+    def: 36
+    dex: 36
+    cripro: 13.6
+    cridem: 28
+    exp: 1850
+  - level: 38
+    hp: 420
+    mp: 420
+    str: 23.5
+    def: 37
+    dex: 37
+    cripro: 13.7
+    cridem: 28.5
+    exp: 1900
+  - level: 39
+    hp: 430
+    mp: 430
+    str: 24
+    def: 38
+    dex: 38
+    cripro: 13.8
+    cridem: 29
+    exp: 1950
+  - level: 40
+    hp: 440
+    mp: 440
+    str: 24.5
+    def: 39
+    dex: 39
+    cripro: 13.9
+    cridem: 29.5
+    exp: 2000

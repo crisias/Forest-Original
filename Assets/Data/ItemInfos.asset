@@ -1,0 +1,1073 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8175785a1dccbb44ac23d52c532f5e5, type: 3}
+  m_Name: ItemInfos
+  m_EditorClassIdentifier: 
+  itemInfos:
+  - id: 101
+    cuberImage: {fileID: 21300000, guid: d491937bffb47aa45886917a9852cd2d, type: 3}
+    type: 5
+    name: "\uC571\uC194\uB7A9\uC2A4 \uC288\uD2B8"
+    material1: {fileID: 21300000, guid: 58c68204080fc4548bba08423976085e, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 75b1df373d74c7a4b993e4f7114313e2, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 102
+    cuberImage: {fileID: 21300000, guid: ec35a38f203eac644b2d46d752a33843, type: 3}
+    type: 5
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uC288\uD2B8"
+    material1: {fileID: 21300000, guid: 97bfece2f08ef474183a685a90886b0e, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: dbee3024f4a44e74581a6c43ea6c1082, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 514ff085aed24c04eadf5510f775f9e9, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 103
+    cuberImage: {fileID: 21300000, guid: 4177b0b7be1a55d46bba04045b99c05a, type: 3}
+    type: 5
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uC288\uD2B8"
+    material1: {fileID: 21300000, guid: 4a64dfe36235f884db87099e0f683fb6, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: a95690395db646d44b8f7d72cab5c336, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: d4449a61b98d1604788d7b040815556d, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 201
+    cuberImage: {fileID: 21300000, guid: fb13d67803649df4a827145b0225aa75, type: 3}
+    type: 2
+    name: "\uC571\uC194\uB7A9\uC2A4 \uD587"
+    material1: {fileID: 21300000, guid: 75b1df373d74c7a4b993e4f7114313e2, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 399f0137ffe4832418d59d09773d74c3, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 3583c0b3b87afc441b707554cc8ea202, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 202
+    cuberImage: {fileID: 21300000, guid: 375278389e9313b4b8c7445cfe26439f, type: 3}
+    type: 2
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uD587"
+    material1: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 3583c0b3b87afc441b707554cc8ea202, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 58c68204080fc4548bba08423976085e, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 203
+    cuberImage: {fileID: 21300000, guid: 94aa0b48a1a67074a81e6d8c754343f5, type: 3}
+    type: 2
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uD587"
+    material1: {fileID: 21300000, guid: d4449a61b98d1604788d7b040815556d, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: c9582b0f03fdc1e469d2ec3803e47672, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: a2442ac9ebbf3dd4fac5aa7196812a6e, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 301
+    cuberImage: {fileID: 21300000, guid: 884814d2398624f4baea178f71424548, type: 3}
+    type: 3
+    name: "\uC571\uC194\uB7A9\uC2A4 \uB9DD\uD1A0"
+    material1: {fileID: 21300000, guid: 58c68204080fc4548bba08423976085e, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 75b1df373d74c7a4b993e4f7114313e2, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 302
+    cuberImage: {fileID: 21300000, guid: 08365c0258692744b94d803af8ffa02d, type: 3}
+    type: 3
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uB9DD\uD1A0"
+    material1: {fileID: 21300000, guid: 514ff085aed24c04eadf5510f775f9e9, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 97bfece2f08ef474183a685a90886b0e, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 14f96e58e645ba84288190f91f22841a, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 303
+    cuberImage: {fileID: 21300000, guid: 52ff0fe335835124fa9a21cebc7e5652, type: 3}
+    type: 3
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uB9DD\uD1A0"
+    material1: {fileID: 21300000, guid: 4a64dfe36235f884db87099e0f683fb6, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: c9582b0f03fdc1e469d2ec3803e47672, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: a2442ac9ebbf3dd4fac5aa7196812a6e, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 401
+    cuberImage: {fileID: 21300000, guid: 6ae9c8b9689f56342a7ac712e2a18eb4, type: 3}
+    type: 6
+    name: "\uC571\uC194\uB7A9\uC2A4 \uC7A5\uAC11"
+    material1: {fileID: 21300000, guid: 58c68204080fc4548bba08423976085e, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 399f0137ffe4832418d59d09773d74c3, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 402
+    cuberImage: {fileID: 21300000, guid: bacf7f57b6a8b4b46b085fde49d24057, type: 3}
+    type: 6
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uC7A5\uAC11"
+    material1: {fileID: 21300000, guid: 97bfece2f08ef474183a685a90886b0e, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: dbee3024f4a44e74581a6c43ea6c1082, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 86baed7e1cb768640add292de32815f1, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 403
+    cuberImage: {fileID: 21300000, guid: bddbf4317c2e6084faa39691c39bca08, type: 3}
+    type: 6
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uC7A5\uAC11"
+    material1: {fileID: 21300000, guid: d4449a61b98d1604788d7b040815556d, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 4a64dfe36235f884db87099e0f683fb6, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: a2442ac9ebbf3dd4fac5aa7196812a6e, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 501
+    cuberImage: {fileID: 21300000, guid: 2f2e84bf6ad25c44094d6a0c67a78363, type: 3}
+    type: 8
+    name: "\uC571\uC194\uB7A9\uC2A4 \uC2E0\uBC1C"
+    material1: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 75b1df373d74c7a4b993e4f7114313e2, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 3583c0b3b87afc441b707554cc8ea202, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 502
+    cuberImage: {fileID: 21300000, guid: 41fdff8ca631a8d409b285dc7d0e99c2, type: 3}
+    type: 8
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uC2E0\uBC1C"
+    material1: {fileID: 21300000, guid: dbee3024f4a44e74581a6c43ea6c1082, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 514ff085aed24c04eadf5510f775f9e9, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 86baed7e1cb768640add292de32815f1, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 503
+    cuberImage: {fileID: 21300000, guid: 80daa24aaf1d35a4b91a3856ab88f62a, type: 3}
+    type: 8
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uC2E0\uBC1C"
+    material1: {fileID: 21300000, guid: 4a64dfe36235f884db87099e0f683fb6, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: a95690395db646d44b8f7d72cab5c336, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: a2442ac9ebbf3dd4fac5aa7196812a6e, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 601
+    cuberImage: {fileID: 21300000, guid: d59b8841b4d45c64a9af4709ebad5dfc, type: 3}
+    type: 1
+    name: "\uC571\uC194\uB7A9\uC2A4 \uC204\uB354"
+    material1: {fileID: 21300000, guid: 58c68204080fc4548bba08423976085e, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 3583c0b3b87afc441b707554cc8ea202, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 602
+    cuberImage: {fileID: 21300000, guid: 5cb0769352706a04b81db01d2d3d1d0a, type: 3}
+    type: 1
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uC204\uB354"
+    material1: {fileID: 21300000, guid: 514ff085aed24c04eadf5510f775f9e9, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 14f96e58e645ba84288190f91f22841a, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 86baed7e1cb768640add292de32815f1, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 603
+    cuberImage: {fileID: 21300000, guid: 9900e2be12e45ac4dbc7a8ce20cd409b, type: 3}
+    type: 1
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uC204\uB354"
+    material1: {fileID: 21300000, guid: a95690395db646d44b8f7d72cab5c336, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: c9582b0f03fdc1e469d2ec3803e47672, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: a2442ac9ebbf3dd4fac5aa7196812a6e, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 701
+    cuberImage: {fileID: 21300000, guid: a086365a94cacff449eadde1ec8a899b, type: 3}
+    type: 4
+    name: "\uC571\uC194\uB7A9\uC2A4 \uC644\uB4DC"
+    material1: {fileID: 21300000, guid: 0b074549f9dc9b841a1007558ba82898, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 3583c0b3b87afc441b707554cc8ea202, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 86baed7e1cb768640add292de32815f1, type: 3}
+    material3Count: 3
+    level: 10
+    hp: 10
+    mp: 10
+    str: 10
+    def: 10
+    dex: 5
+    cripro: 5
+    cridem: 5
+    gold: 1000
+    buyGold: 5000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 702
+    cuberImage: {fileID: 21300000, guid: 4a47b6f6881d0584b92d7b41967df593, type: 3}
+    type: 4
+    name: "\uC544\uCF00\uC778 \uC170\uC774\uB4DC \uC644\uB4DC"
+    material1: {fileID: 21300000, guid: dbee3024f4a44e74581a6c43ea6c1082, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: 514ff085aed24c04eadf5510f775f9e9, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 14f96e58e645ba84288190f91f22841a, type: 3}
+    material3Count: 3
+    level: 20
+    hp: 20
+    mp: 20
+    str: 20
+    def: 20
+    dex: 10
+    cripro: 10
+    cridem: 10
+    gold: 10000
+    buyGold: 50000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 703
+    cuberImage: {fileID: 21300000, guid: 40066e2438cc9e4418e318a5c70fa368, type: 3}
+    type: 4
+    name: "\uB4DC\uB798\uACE4\uD14C\uC77C \uC644\uB4DC"
+    material1: {fileID: 21300000, guid: a95690395db646d44b8f7d72cab5c336, type: 3}
+    material1Count: 3
+    material2: {fileID: 21300000, guid: d4449a61b98d1604788d7b040815556d, type: 3}
+    material2Count: 3
+    material3: {fileID: 21300000, guid: 4a64dfe36235f884db87099e0f683fb6, type: 3}
+    material3Count: 3
+    level: 30
+    hp: 30
+    mp: 30
+    str: 30
+    def: 30
+    dex: 15
+    cripro: 15
+    cridem: 15
+    gold: 100000
+    buyGold: 500000
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 801
+    cuberImage: {fileID: 21300000, guid: d4c5eca4af18d8349b3c84f475572116, type: 3}
+    type: 9
+    name: "\uB178\uB791"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: "\uAC00\uBCCD\uAC8C \uC785\uC744\uC218 \uC788\uB294 \uB178\uB780\uC6D0\uD53C\uC2A4"
+    lockBool: 0
+  - id: 802
+    cuberImage: {fileID: 21300000, guid: 70ee503e998d4bc43b519471c4981097, type: 3}
+    type: 9
+    name: "\uB124\uC774\uBE44"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: "\uC2DC\uC6D0 \uC2DC\uC6D0\uD55C \uC0C9\uAC10\uC758 \uC5EC\uB984 \uC758\uC0C1"
+    lockBool: 0
+  - id: 803
+    cuberImage: {fileID: 21300000, guid: 307b4696ff643cf459d9be1798b8d157, type: 3}
+    type: 9
+    name: "\uD551\uD06C"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: "\uADC0\uC5FD\uACE0 \uD654\uB824\uD55C \uD551\uD06C\uC0C9 \uB4DC\uB808\uC2A4"
+    lockBool: 0
+  - id: 901
+    cuberImage: {fileID: 21300000, guid: 247be4a41b8b6c04699abb926a73b4b9, type: 3}
+    type: 7
+    name: "\uD3AB : \uAC15\uC544\uC9C0"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 902
+    cuberImage: {fileID: 21300000, guid: 640d23e53e5f35b47a3abd2033f0cc5e, type: 3}
+    type: 7
+    name: "\uD3AB : \uB808\uC11C\uD310\uB354"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 903
+    cuberImage: {fileID: 21300000, guid: 6abe69af5c91cba4b9fe90859825ac82, type: 3}
+    type: 7
+    name: "\uD3AB : \uC5EC\uC6B0"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 904
+    cuberImage: {fileID: 21300000, guid: 45a45f6408d022b46a4364e112f3cab6, type: 3}
+    type: 7
+    name: "\uD3AB : \uACF0"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000000
+    buyGold: 0
+    count: 0
+    info: 
+    lockBool: 0
+  - id: 1001
+    cuberImage: {fileID: 21300000, guid: 999bd892ac845784695937badc81374c, type: 3}
+    type: 0
+    name: 
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1
+    buyGold: 300000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1002
+    cuberImage: {fileID: 21300000, guid: 61e1b9437ad339540aebafa6855bc873, type: 3}
+    type: 0
+    name: 
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 1
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1
+    buyGold: 500000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1003
+    cuberImage: {fileID: 21300000, guid: 1e662efdd2a888044b535055298af185, type: 3}
+    type: 0
+    name: 
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 2
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1
+    buyGold: 700000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1004
+    cuberImage: {fileID: 21300000, guid: 246840ed4d1c3944c8469d308507c3d3, type: 3}
+    type: 0
+    name: "\uC2E0\uBE44\uD55C \uB4DC\uB798\uACE4 \uBE44\uB298"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 3
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1005
+    cuberImage: {fileID: 21300000, guid: 78c5dc7dd72f8604a8cec8f15da1c4b4, type: 3}
+    type: 0
+    name: "\uAC80\uC740 \uB3CC \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 4
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1006
+    cuberImage: {fileID: 21300000, guid: e3244abb46d36a142b5496599f9a8d45, type: 3}
+    type: 0
+    name: "\uB4DC\uB798\uACE4 \uBE44\uB298"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 5
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 5000
+    buyGold: 25000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1007
+    cuberImage: {fileID: 21300000, guid: 543825b822fe4bd45b1447cd324b27b9, type: 3}
+    type: 0
+    name: "\uBE5B\uB098\uB294 \uB4DC\uB798\uACE4 \uBE44\uB298"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 6
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 100000
+    buyGold: 500000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1008
+    cuberImage: {fileID: 21300000, guid: b74e4964f65f2ce4c9a44294504e0433, type: 3}
+    type: 0
+    name: "\uC624\uB2C9\uC2A4 \uB4DC\uB798\uACE4\uC758 \uBE44\uB298"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 7
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1009
+    cuberImage: {fileID: 21300000, guid: cebb76d1f6ea58747aff947238cf8003, type: 3}
+    type: 0
+    name: "\uAC15\uCCA0 \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 8
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 3000
+    buyGold: 15000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1010
+    cuberImage: {fileID: 21300000, guid: a02dead68c644ce4c85f647b83bf8c92, type: 3}
+    type: 0
+    name: "\uB9C8\uBC95\uC758 \uB3CC"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 9
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 8000
+    buyGold: 40000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1011
+    cuberImage: {fileID: 21300000, guid: 76a5c21d342f34a4682f8b11d3061453, type: 3}
+    type: 0
+    name: "\uD63C\uB3C8\uC758 \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 10
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 6000
+    buyGold: 30000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1012
+    cuberImage: {fileID: 21300000, guid: 55b6ae783ed64154abe14b1d461ad5a8, type: 3}
+    type: 0
+    name: "\uBBF8\uC2A4\uB9B4 \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 11
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 7000
+    buyGold: 28000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1013
+    cuberImage: {fileID: 21300000, guid: 051fe352fd5614f4994ff9c74c03b574, type: 3}
+    type: 0
+    name: "\uC5B4\uB450\uC6B4 \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 12
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 100000
+    buyGold: 500000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1014
+    cuberImage: {fileID: 21300000, guid: 6876eabbe5101c248a47f9e571649721, type: 3}
+    type: 0
+    name: "\uBCC4\uC758 \uC870\uAC01"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 13
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1015
+    cuberImage: {fileID: 21300000, guid: 0db581722ca12b44aba205f8f8dc7c88, type: 3}
+    type: 0
+    name: "\uC2DC\uAC04\uC758 \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 14
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1016
+    cuberImage: {fileID: 21300000, guid: d3f43ec89e89aec42815f2c3db3f581f, type: 3}
+    type: 0
+    name: "\uCC28\uC6D0\uC758 \uC870\uAC01"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 15
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1017
+    cuberImage: {fileID: 21300000, guid: 61fb17b6dd2ad534fb1a3513e448f79b, type: 3}
+    type: 0
+    name: "\uACE0\uB300\uC758 \uD30C\uD3B8"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 16
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0
+  - id: 1018
+    cuberImage: {fileID: 21300000, guid: 682a51c9a6bb11a489df83445893e952, type: 3}
+    type: 0
+    name: "\uBD88\uAE38\uD55C \uB3CC"
+    material1: {fileID: 0}
+    material1Count: 0
+    material2: {fileID: 0}
+    material2Count: 0
+    material3: {fileID: 0}
+    material3Count: 0
+    level: 17
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    gold: 1000
+    buyGold: 5000
+    count: 1
+    info: 
+    lockBool: 0

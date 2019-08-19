@@ -1,0 +1,1471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9dbc671f27fbb48b1cc356a4605485, type: 3}
+  m_Name: SaveData
+  m_EditorClassIdentifier: 
+  saveData:
+    job: 0
+    lv: 0
+    hp: 0
+    mp: 0
+    str: 0
+    def: 0
+    dex: 0
+    cripro: 0
+    cridem: 0
+    exp: 0
+    skillIconImage:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    saveInven:
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
+    - id: 0
+      cuberImage: {fileID: 0}
+      type: 0
+      name: 
+      material1: {fileID: 0}
+      material1Count: 0
+      material2: {fileID: 0}
+      material2Count: 0
+      material3: {fileID: 0}
+      material3Count: 0
+      level: 0
+      hp: 0
+      mp: 0
+      str: 0
+      def: 0
+      dex: 0
+      cripro: 0
+      cridem: 0
+      gold: 0
+      buyGold: 0
+      count: 0
+      info: 
+      lockBool: 0
+      reinForce: 0
